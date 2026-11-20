@@ -1,0 +1,23 @@
+# Tested on Google Colab (GPU). Colab already provides torch / torchvision / numpy -
+# do NOT reinstall them. The notebooks install these packages for you.
+# notebook 01 installs terratorch with --no-deps to keep Colab PyTorch
+terratorch==1.2.8
+lightning<2.6
+torchmetrics
+torchgeo
+timm
+segmentation-models-pytorch
+kornia
+einops
+jsonargparse[signatures]
+albumentations
+huggingface-hub
+tensorboard
+pyyaml
+rich
+rasterio
+geopandas
+shapely
+scipy
+matplotlib
+pandas
